@@ -25,7 +25,7 @@ const MyWork = () => {
           <div className="project-content">
   <h3>Gravilog Revamp</h3>
   <div className="project-image">
-    <img className="project-img" src="./images/project6.png" alt="Project 6 Image" />
+    <img className="project-img" src="./images/project6.png" alt="gravilog" />
   </div>
   <p>
     This project was completed as part of my internship at Gravilog.
@@ -52,7 +52,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>New Portfolio</h3>
             <div className="project-image">
-              <img className="project-img" src="./images/project1.png" alt="Project 1 Image" />
+              <img className="project-img" src="./images/project1.png" alt="portfolio" />
             </div>
             <p>
             n this project, I used a modern glassmorphism design combined with dynamic fonts to create a captivating, layered effect. The background features a subtle, sparkling star effect powered by particles.js, adding a touch of movement and depth. Built with HTML, CSS, and JavaScript, this project is fully adaptive, ensuring a smooth and responsive experience across all screen sizes.
@@ -79,7 +79,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>Personal Website</h3>
             <div className="project-image">
-              <img className="project-img" src="./images/project5.png" alt="Project 5 Image" />
+              <img className="project-img" src="./images/project5.png" alt="journal" />
             </div>
             <p>
             This project is a personal website aimed at helping users organize their daily routines and thoughts.
@@ -111,7 +111,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>Meow Finder</h3>
             <div className="project-image">
-              <img className="project-img" src="./images/project4.png" alt="Project 4 Image" />
+              <img className="project-img" src="./images/project4.png" alt="cats app" />
             </div>
             <p>
             Cat Finder App integrates with the Cat API Ninjas, featuring a carousel on the homepage displaying
@@ -141,7 +141,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>Team Generator OOP</h3>
             <div className="project-image">
-              <img className="project-img" src="./images/project3.png" alt="Project 3 Image" />
+              <img className="project-img" src="./images/project3.png" alt="generator app" />
             </div>
             <p>
             This application is designed to generate an HTML webpage that displays basic information about
@@ -170,7 +170,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>City Weather</h3>
             <div className="project-image">
-              <img className="project-img" src="./images/project2.png" alt="Project 2 Image" />
+              <img className="project-img" src="./images/project2.png" alt="weather app" />
             </div>
             <p>
             Weather application provides real-time weather information for cities worldwide. You can retrieve the
@@ -203,7 +203,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>Future Project</h3>
             <div className="project-image">
-              <img className="project-img" src="https://via.placeholder.com/300x200" alt="Project placeholder" />
+              <img className="project-img" src="https://via.placeholder.com/300x200" alt="feauture project" />
             </div>
             <p>
             

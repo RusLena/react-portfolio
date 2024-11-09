@@ -41,7 +41,7 @@ const Header = () => {
         <img
           className="photo"
           src="/images/Portfolio-photo.png"
-          alt="Portfolio Photo"
+          alt="me in london"
         />
 
         {/* React Spring for Intro Text animation */}
