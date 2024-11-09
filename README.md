@@ -23,5 +23,5 @@ Technologies Used
     This portfolio is deployed on Netlify. You can check it out live at the link below:  
     https://darling-trifle-9b5f89.netlify.app/
     
-    License
+License
 This project is licensed under the MIT License.
