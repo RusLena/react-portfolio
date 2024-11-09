@@ -1,0 +1,15 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0;  /* Make it invisible */
+  }
+  100% {
+    transform: translateX(0); /* End at its natural position */
+    opacity: 1;  /* Fade in */
+  }
+}
+
+h1 {
+  animation: slideInFromLeft 1s ease-out forwards; /* Apply the animation */
+}
+

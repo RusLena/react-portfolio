@@ -1,0 +1,33 @@
+/* Footer Styling */
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #E2F1E7; /* Dark background color */
+    color: #508C9B; /* Light text for contrast */
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  #footer p, #footer .anchor {
+    margin: 5px 0;
+  }
+  
+  .anchor {
+    color: #FD8B51; /* Gold color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 800;
+  }
+  
+  .anchor:hover {
+    color: #CB6040; /* Light hover effect */
+  }
+  
+  .end p {
+    margin: 5px 0; /* Consistent spacing */
+  }
+  

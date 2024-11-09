@@ -1,0 +1,98 @@
+/* Header.css */
+@keyframes sparkle {
+    0% {
+      color: rgb(245, 246, 170); /* Light color */
+    }
+    50% {
+      color: rgb(131, 121, 240); /* Darker color */
+    }
+    100% {
+      color: rgb(170, 237, 249); /* Light color again */
+    }
+  }
+  .heading {
+    font-family: 'Your Dynamic Font', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(185, 160, 221);
+    margin-bottom: 2rem;
+    transition: text-shadow 0.5s ease-in-out; 
+  }
+  
+  /* Sparkle effect*/
+  .heading.glow {
+    animation: sparkle 10s ease infinite;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #006A67, #000B58);
+    font-size: 2rem;
+    color: #fff;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.645); 
+    position: relative; 
+    z-index: 10; 
+  }
+  
+  .about-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .photo {
+    width: 440px;
+    height: 450px;
+    border-radius: 8px;
+    margin-top: 20px;
+    z-index: 10;
+    box-shadow: 10px 18px 28px rgba(1, 4, 16, 0.963), -3px -8px 15px rgb(42, 87, 128); /* Neumorphism shadow */
+  }
+  
+  .intro {
+    margin-top: 50px;
+    max-width: 600px;
+    color: #f3f3f3;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .head-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    border: #65acb0 1.5px solid;
+    background-color: #5a94a3; 
+    border-radius: 8px; 
+    text-decoration: none;
+    box-shadow: 7px 9px 20px rgba(0, 12, 18, 0.851), -2px -3px 8px rgb(33, 61, 79);; /* Neumorphism shadow */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    cursor: pointer;
+  }
+  
+  .head-btn:hover {
+    background-color: #FFF4B7; /* Light yellow hover */
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(255, 255, 255, 0.6); /* Darker shadow on hover */
+  }
+  
+  .head-btn:active {
+    transform: scale(1); /* Active state scale down */
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3), inset -2px -2px 4px rgba(255, 255, 255, 0.5); /* Inset shadow on click */
+  }
