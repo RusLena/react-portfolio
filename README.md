@@ -19,7 +19,7 @@ It's optimized for a smooth and immersive experience across different screen siz
    * React Router: For seamless navigation between sections.
     
 # Deployment:
-    This portfolio is deployed on Netlify. You can check it out live at the link below:  
+This portfolio is deployed on Netlify. You can check it out live at the link below:  
     https://darling-trifle-9b5f89.netlify.app/
     
 # License:
