@@ -88,7 +88,6 @@
   border-radius: 8px;
   text-decoration: none;
   box-shadow: 7px 9px 20px rgba(0, 12, 18, 0.851), -2px -3px 8px rgb(33, 61, 79);
-  ;
   /* Neumorphism shadow */
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
   /* Smooth transition for hover effects */

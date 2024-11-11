@@ -29,7 +29,7 @@ const Testimonials = () => {
   return (
     <div className="popup-overlay">
       <div className="popup-content">
-        <h2>Customer Testimonials</h2>
+        <h3>Customer Testimonials</h3>
         <p>
           "I am writing to wholeheartedly endorse Mrs. Elena Golovko, whom I worked with on a project/
           internship program. Her exceptional deep market analysis skills and innovative approach to

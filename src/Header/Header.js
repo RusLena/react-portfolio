@@ -21,7 +21,13 @@ const Header = () => {
   const handleAnimationComplete = () => {
     setIsGlowing(true); // Trigger color pulse after animation
   };
-
+  // Function to play the click sound
+  const playClickSound = () => {
+    const clickSound = new Audio(
+      "./sounds/mixkit-fast-double-click-on-mouse-275.wav"
+    );
+    clickSound.play();
+  };
   return (
     <header className="header">
       <Navbar /> {/* Render Navbar here */}
@@ -29,12 +35,16 @@ const Header = () => {
         {/* Framer Motion for Heading Animation */}
         <motion.h1
           className={`heading ${isGlowing ? "glow" : ""}`}
-          initial={{ x: '-100%', opacity: 0 }}
+          initial={{ x: "-100%", opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
           onAnimationComplete={handleAnimationComplete} // Trigger color change after animation
         >
-          Hello,<br />my name is Elena.<br />I'm a Freelance Frontend Developer.
+          Hello,
+          <br />
+          my name is Elena.
+          <br />
+          I'm a Freelance Frontend Developer.
         </motion.h1>
 
         {/* Static image, no animation */}
@@ -47,12 +57,20 @@ const Header = () => {
         {/* React Spring for Intro Text animation */}
         <animated.div className="intro" style={slideInProps}>
           <p>
-            I gained foundational knowledge in Front-End Web Development through the edX bootcamp and further honed my skills during a 16-week internship program facilitated by Virtual Internships, where I practiced working on both solo and team projects, building websites and apps using HTML5, CSS, JavaScript, jQuery, React.js, Node.js, and Git/GitHub. I’m passionate about creating responsive websites that offer a seamless experience on any device and developing interactive user interfaces to enhance user engagement.
+            I gained foundational knowledge in Front-End Web Development through
+            the edX bootcamp and further honed my skills during a 16-week
+            internship program facilitated by Virtual Internships, where I
+            practiced working on both solo and team projects, building websites
+            and apps using HTML5, CSS, JavaScript, jQuery, React.js, Node.js,
+            and Git/GitHub. I’m passionate about creating responsive websites
+            that offer a seamless experience on any device and developing
+            interactive user interfaces to enhance user engagement.
           </p>
           <motion.a
             href="https://github.com/RusLena"
             target="_blank"
             className="head-btn"
+            onClick={playClickSound} // Play sound on click
           >
             My projects
           </motion.a>
