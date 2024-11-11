@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #E2F1E7; /* Dark background color */
-    color: #508C9B; /* Light text for contrast */
+    background-color: #E2F1E7; 
+    color: #508C9B; 
     font-size: 1rem;
     font-weight: 800;
     text-align: center;
@@ -17,17 +17,17 @@
   }
   
   .anchor {
-    color: #FD8B51; /* Gold color for links */
+    color: #FD8B51; 
     text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 800;
   }
   
   .anchor:hover {
-    color: #CB6040; /* Light hover effect */
+    color: #CB6040; 
   }
   
   .end p {
-    margin: 5px 0; /* Consistent spacing */
+    margin: 5px 0; 
   }
   

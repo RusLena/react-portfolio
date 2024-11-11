@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../src/Header/Header";
 import MyWork from "../src/MyWork/MyWork";
 import Footer from "../src/Footer/Footer";
+import Testimonials from "../src/Testimonials/Testimonials";
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
     <MyWork />
    <Footer />
+   <Testimonials />
     </div>
     
   );

@@ -50,7 +50,7 @@ const Header = () => {
             I gained foundational knowledge in Front-End Web Development through the edX bootcamp and further honed my skills during a 16-week internship program facilitated by Virtual Internships, where I practiced working on both solo and team projects, building websites and apps using HTML5, CSS, JavaScript, jQuery, React.js, Node.js, and Git/GitHub. I’m passionate about creating responsive websites that offer a seamless experience on any device and developing interactive user interfaces to enhance user engagement.
           </p>
           <motion.a
-            href="https://github.com/RusLena?tab=stars"
+            href="https://github.com/RusLena"
             target="_blank"
             className="head-btn"
           >

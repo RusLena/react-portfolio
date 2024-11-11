@@ -18,8 +18,15 @@ const Navbar = () => {
       <ul className={`menu ${isMenuOpen ? "active" : ""}`}>
         <li><a href="#about">About Me</a></li>
         <li><a href="#projects">My Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li>
+          <a 
+            href="./images/FED CV.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </li>
         <li><a href="#footer">Contact</a></li>
       </ul>
     </nav>
