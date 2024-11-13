@@ -23,19 +23,19 @@ const Header = () => {
   };
   // The click sound function
   const playClickSound = (event) => {
-    event.preventDefault();
-
-    const clickSound = new Audio(
-      "./sounds/mixkit-fast-double-click-on-mouse-275.wav"
-    );
-    clickSound.play();
-    clickSound.onended = () => {
-      setTimeout(() => {
+    event.preventDefault();  // Prevents default link behavior
   
-      window.open("https://github.com/RusLena", "_blank");  // Open the GitHub link
-    }, 100);
+    // Create the audio element
+    const clickSound = new Audio("./sounds/mixkit-fast-double-click-on-mouse-275.wav");
+  
+    // Play the sound immediately
+    clickSound.play();
+  
+    // Open the link in a new tab with a short delay
+    setTimeout(() => {
+      window.open("https://github.com/RusLena", "_blank");
+    }, 100);  // Small delay for smoother experience
   };
-};
   return (
     <header className="header">
       <Navbar /> {/* Render Navbar here */}
