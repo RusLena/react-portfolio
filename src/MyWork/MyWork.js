@@ -88,7 +88,7 @@ const MyWork = () => {
           <div className="btn-container">
             <button
               className="btn"
-              onClick={() => window.open("https://g16-personal-website.netlify.app/", "_blank")}
+              onClick={() => window.open("https://bespoke-pasca-7612d0.netlify.app/", "_blank")}
             >
               Netlify
             </button>
