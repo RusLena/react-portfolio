@@ -21,7 +21,7 @@ const Header = () => {
   const handleAnimationComplete = () => {
     setIsGlowing(true); // Trigger color pulse after animation
   };
-  // Function to play the click sound
+  // The click sound function
   const playClickSound = (event) => {
     event.preventDefault();
 
@@ -30,9 +30,12 @@ const Header = () => {
     );
     clickSound.play();
     clickSound.onended = () => {
+      setTimeout(() => {
+  
       window.open("https://github.com/RusLena", "_blank");  // Open the GitHub link
-    };
+    }, 100);
   };
+};
   return (
     <header className="header">
       <Navbar /> {/* Render Navbar here */}
