@@ -14,6 +14,35 @@ const MyWork = () => {
         <h2>Recent Work</h2>
       </div>
       <div className={`cards-container ${clicked ? "clicked" : ""}`}>
+
+       {/* React portfolio card */}
+       <div 
+          className="card" 
+          onClick={handleClick}
+        >
+          <div className="project-content">
+            <h3>React portfolio</h3>
+            <div className="project-image">
+              <img className="project-img" src="./images/project7.png" alt="react project" />
+            </div>
+            <p>
+            This personal portfolio showcases my front-end skills with engaging animations and interactive elements. 
+            Key features include a sparkling font animation, an animated main heading, and a glassmorphism effect in the navbar. 
+            Neumorphic styling and hover-activated project cards add depth, while gradient colors and responsive design create a polished experience on all devices. 
+            A click sound effect was added to the "My Projects" button, with a mobile-friendly delay. Built with HTML, CSS, JavaScript, and React.
+            </p>
+            <strong className="date">November 2024</strong>
+          </div>
+          <div className="btn-container">
+            <button
+              className="btn"
+              onClick={() => window.open("https://darling-trifle-9b5f89.netlify.app/", "_blank")}
+            >
+              Netlify
+            </button>
+          </div>
+        </div>
+
         {/* Gravilog Revamp Card */}
         <div 
           className="card" 
