@@ -22,19 +22,25 @@ const Header = () => {
     setIsGlowing(true); // Trigger color pulse after animation
   };
   // The click sound function
-  const playClickSound = (event) => {
-    event.preventDefault();  // Prevents default link behavior
+  const playClickSoundAndOpenLink = (event) => {
+    event.preventDefault();  // Prevent the default link behavior
   
-    // Create the audio element
+    // Create the audio element and play the sound
     const clickSound = new Audio("./sounds/mixkit-fast-double-click-on-mouse-275.wav");
-  
-    // Play the sound immediately
     clickSound.play();
   
-    // Open the link in a new tab with a short delay
-    setTimeout(() => {
+    // Check if the device is mobile (you can adjust the condition based on your needs)
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  
+    // Delay the link opening only for mobile devices
+    if (isMobile) {
+      setTimeout(() => {
+        window.open("https://github.com/RusLena", "_blank");
+      }, 200);  // Delay for mobile devices to ensure smooth sound play
+    } else {
+      // For desktop, open the link immediately
       window.open("https://github.com/RusLena", "_blank");
-    }, 100);  // Small delay for smoother experience
+    }
   };
   return (
     <header className="header">
@@ -78,7 +84,7 @@ const Header = () => {
             href="https://github.com/RusLena"
             target="_blank"
             className="head-btn"
-            onClick={playClickSound} // Play sound on click
+            onClick={playClickSoundAndOpenLink} // Play sound on click
           >
             My projects
           </motion.a>
