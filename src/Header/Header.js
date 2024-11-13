@@ -22,11 +22,16 @@ const Header = () => {
     setIsGlowing(true); // Trigger color pulse after animation
   };
   // Function to play the click sound
-  const playClickSound = () => {
+  const playClickSound = (event) => {
+    event.preventDefault();
+
     const clickSound = new Audio(
       "./sounds/mixkit-fast-double-click-on-mouse-275.wav"
     );
     clickSound.play();
+    clickSound.onended = () => {
+      window.open("https://github.com/RusLena", "_blank");  // Open the GitHub link
+    };
   };
   return (
     <header className="header">
