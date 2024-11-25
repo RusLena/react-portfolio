@@ -26,4 +26,4 @@ This portfolio is deployed on Netlify. You can check it out live at the link bel
     https://darling-trifle-9b5f89.netlify.app/
     
 # License:
-This project is licensed under the MIT License.
+No licence

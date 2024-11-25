@@ -105,19 +105,14 @@ const MyWork = () => {
               <img className="project-img" src="./images/project5.png" alt="journal" />
             </div>
             <p>
-              This project is a personal website aimed at helping users organize their daily routines and thoughts.
-              It includes pages for journaling, task management, shopping lists, exercise tracking, and food
-              logging. Developed using HTML, CSS, and JavaScript with React for interactivity, it ensures user
-              data privacy through local storage. The interface features smooth animations courtesy of
-              Animate.css, with additional functionality provided by React packages like Bootstrap and
-              React-Icons.
+            This project started as a collaborative effort during a bootcamp but has since been completely reimagined by me. I revamped the codebase, transformed the design, and added new functionalities to make it easier to add and save records. It includes pages for journaling, task management, shopping lists, exercise tracking, and food logging, all tailored for an enhanced user experience. Built using React with Vite, the updated interface features modern aesthetics, smooth animations with Animate.css, and React-Bootstrap for responsiveness
             </p>
             <strong className="date">April 2024</strong>
           </div>
           <div className="btn-container">
             <button
               className="btn"
-              onClick={() => window.open("https://bespoke-pasca-7612d0.netlify.app/", "_blank")}
+              onClick={() => window.open("https://my-personal-journal.netlify.app/", "_blank")}
             >
               Netlify
             </button>
