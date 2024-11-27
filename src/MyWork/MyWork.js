@@ -105,9 +105,12 @@ const MyWork = () => {
               <img className="project-img" src="./images/project5.png" alt="journal" />
             </div>
             <p>
-            This project started as a collaborative effort during a bootcamp but has since been completely reimagined by me. I revamped the codebase, transformed the design, and added new functionalities to make it easier to add and save records. It includes pages for journaling, task management, shopping lists, exercise tracking, and food logging, all tailored for an enhanced user experience. Built using React with Vite, the updated interface features modern aesthetics, smooth animations with Animate.css, and React-Bootstrap for responsiveness
+            This was originally a bootcamp team project but was completely rebuilt by me, retaining only the original hero section. 
+            It includes pages for a journal, tasks, shopping lists, exercise tracking, and food logging. 
+            I rewrote the codebase, redesigned the interface, and enhanced functionality for adding and saving records. 
+            Built with React and Vite, it features modern aesthetics, Animate.css animations, and React-Bootstrap for responsiveness.
             </p>
-            <strong className="date">April 2024</strong>
+            <strong className="date">Rebuit: November 2024 </strong>
           </div>
           <div className="btn-container">
             <button
@@ -212,7 +215,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>Future Project</h3>
             <div className="project-image">
-              <img className="project-img" src="https://via.placeholder.com/300x200" alt="future project" />
+              <img className="project-img" src="https://via.placeholder.com/600x400" alt="future project" />
             </div>
             <p></p>
             <strong className="date">2024-2025</strong>
