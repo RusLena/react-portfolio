@@ -207,23 +207,23 @@ const MyWork = () => {
           </div>
         </div>
 
-        {/* Future Project Card */}
+        {/* City-skyline Project Card */}
         <div 
           className="card" 
           onClick={handleClick}
         >
           <div className="project-content">
-            <h3>Future Project</h3>
+            <h3>City Skyline</h3>
             <div className="project-image">
-              <img className="project-img" src="https://via.placeholder.com/600x400" alt="future project" />
+              <img className="project-img" src="./images/project8.png" alt="freecodecamp project" />
             </div>
-            <p></p>
-            <strong className="date">2024-2025</strong>
+            <p>A modern city skyline created with HTML and CSS. I enhanced the original FreeCodeCamp project by adding a glowing sun effect and adjusting the color palette for a more realistic look.</p>
+            <strong className="date">2025</strong>
           </div>
           <div className="btn-container">
             <button
               className="btn"
-              onClick={() => window.open("https://github.com/RusLena", "_blank")}
+              onClick={() => window.open("https://github.com/RusLena/City-skyline", "_blank")}
             >
               Netlify
             </button>
