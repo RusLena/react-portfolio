@@ -15,6 +15,29 @@ const MyWork = () => {
       </div>
       <div className={`cards-container ${clicked ? "clicked" : ""}`}>
 
+{/* City-skyline Project Card */}
+<div 
+          className="card" 
+          onClick={handleClick}
+        >
+          <div className="project-content">
+            <h3>City Skyline</h3>
+            <div className="project-image">
+              <img className="project-img" src="./images/project8.png" alt="freecodecamp project" />
+            </div>
+            <p>A modern city skyline created with HTML and CSS. I enhanced the original FreeCodeCamp project by adding a glowing sun effect and adjusting the color palette for a more realistic look.</p>
+            <strong className="date">March 2025</strong>
+          </div>
+          <div className="btn-container">
+            <button
+              className="btn"
+              onClick={() => window.open("https://github.com/RusLena/City-skyline", "_blank")}
+            >
+              GitHub
+            </button>
+          </div>
+        </div>
+
        {/* React portfolio card */}
        <div 
           className="card" 
@@ -203,29 +226,6 @@ const MyWork = () => {
               onClick={() => window.open("https://ruslena.github.io/City-Weather/", "_blank")}
             >
               GitHub
-            </button>
-          </div>
-        </div>
-
-        {/* City-skyline Project Card */}
-        <div 
-          className="card" 
-          onClick={handleClick}
-        >
-          <div className="project-content">
-            <h3>City Skyline</h3>
-            <div className="project-image">
-              <img className="project-img" src="./images/project8.png" alt="freecodecamp project" />
-            </div>
-            <p>A modern city skyline created with HTML and CSS. I enhanced the original FreeCodeCamp project by adding a glowing sun effect and adjusting the color palette for a more realistic look.</p>
-            <strong className="date">2025</strong>
-          </div>
-          <div className="btn-container">
-            <button
-              className="btn"
-              onClick={() => window.open("https://github.com/RusLena/City-skyline", "_blank")}
-            >
-              Netlify
             </button>
           </div>
         </div>
