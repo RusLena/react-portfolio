@@ -25,7 +25,7 @@ const MyWork = () => {
             <div className="project-image">
               <img className="project-img" src="./images/project8.png" alt="freecodecamp project" />
             </div>
-            <p>This project is based on a FreeCodeCamp challenge, which I enhanced by adding a glowing sun effect and refining the color palette for a more realistic city skyline. Built with HTML and CSS, it features dynamic gradients and structured building patterns. Watch the demo here: https://youtu.be/vdxdgxov2m8.</p>
+            <p>This project is based on a FreeCodeCamp challenge, which I enhanced by adding a glowing sun effect, light reflection on the windows, and refining the color palette for a more realistic city skyline. Built with HTML and CSS, it features dynamic gradients, structured building patterns, and subtle lighting effects. Watch the demo here: https://youtu.be/xbeN2go3G04.</p>
             <strong className="date">March 2025</strong>
           </div>
           <div className="btn-container">
