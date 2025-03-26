@@ -61,8 +61,8 @@ const Header = () => {
 
         <img
           className="photo"
-          src="/images/Portfolio-photo.png"
-          alt="me in london"
+          src="/images/myphoto2.jpeg"
+          alt="I am freelancer"
         />
 
         <animated.div className="intro" style={slideInProps}>
