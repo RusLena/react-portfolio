@@ -156,7 +156,7 @@ const MyWork = () => {
             I rewrote the codebase, redesigned the interface, and enhanced functionality for adding and saving records. 
             Built with React and Vite, it features modern aesthetics, Animate.css animations, and React-Bootstrap for responsiveness.
             </p>
-            <strong className="date">Rebuit: November 2024 </strong>
+            <strong className="date">Redeveloped: November 2024 </strong>
           </div>
           <div className="btn-container">
             <button
