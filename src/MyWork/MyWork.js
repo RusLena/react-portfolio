@@ -23,7 +23,7 @@ const MyWork = () => {
           <div className="project-content">
             <h3>Lottery Number Generator</h3>
             <div className="project-image">
-              <img className="project-img" src="./images/project8.png" alt="freecodecamp project" />
+              <img className="project-img" src="./images/project9.png" alt="freecodecamp project" />
             </div>
             <p>This project is a web-based lottery numbers generating tool designed to generate random lottery numbers for various UK lotteries, such as EuroMillions, Lotto, and Set for Life. It fetches and displays historical lottery results and provides users with suggested numbers based on selected lotteries. The app features a user-friendly interface built using HTML, CSS, and JavaScript, with a Flask-based backend to handle the scraping of results and number generation. </p>
             <strong className="date">March 2025</strong>
