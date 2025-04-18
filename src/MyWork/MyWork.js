@@ -54,9 +54,9 @@ const MyWork = () => {
           <div className="btn-container">
             <button
               className="btn"
-              onClick={() => window.open("https://github.com/RusLena/City-skyline", "_blank")}
+              onClick={() => window.open("https://nycity.netlify.app/", "_blank")}
             >
-              GitHub
+              Netlify
             </button>
           </div>
         </div>
