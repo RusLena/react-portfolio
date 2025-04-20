@@ -6,7 +6,7 @@ const Footer = () => {
     <footer id="footer" className="end">
       <p>Contact Me:</p>
 
-      {/* ✅ Netlify-compatible contact form */}
+      {/*  Netlify-compatible contact form */}
       <form
         name="contact"
         method="POST"
