@@ -11,6 +11,23 @@
     text-align: center;
     gap: 10px;
   }
+    .contact-form input,
+    .contact-form textarea {
+      border: 2px solid #508C9B;
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 1rem;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .send {
+    background-color: #508C9B;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
   
   #footer p, #footer .anchor {
     margin: 5px 0;
