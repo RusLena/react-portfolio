@@ -41,11 +41,14 @@
 }
 @media (max-width: 768px) {
   .popup-content {
-    left: 50%;      
-    transform: 90vw;     
-    max-width: none; 
+    left: 15px;   
+    right: auto;   
+    /*transform: translateX(-50%);  */  
+    width: 90vw;
+    max-width: 300px; 
     font-size: 0.7rem;
     bottom: 10px;
+    max-height: 120px;
     max-width: 160px;
     overflow-y:auto;
   }
