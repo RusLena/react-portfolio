@@ -1,18 +1,28 @@
 /* Header.css */
 @keyframes sparkle {
+  
   0% {
-    color: rgb(245, 246, 170);
-    /* Light color */
+    color: rgb(245, 246, 170); /* Light yellow */
   }
 
-  50% {
-    color: rgb(131, 121, 240);
-    /* Darker color */
+  20% {
+    color: rgb(220, 210, 150); /* Soft yellow transitioning */
+  }
+
+  40% {
+    color: rgb(170, 185, 240); /* Soft purple-blue */
+  }
+
+  60% {
+    color: rgb(131, 121, 240); /* Purple */
+  }
+
+  80% {
+    color: rgb(170, 237, 249); /* Soft blue */
   }
 
   100% {
-    color: rgb(170, 237, 249);
-    /* Light color again */
+    color: rgb(245, 246, 170); /* Light yellow again */
   }
 }
 
@@ -21,12 +31,11 @@
   font-size: 2.5rem;
   color: rgb(185, 160, 221);
   margin-bottom: 2rem;
-  transition: text-shadow 0.5s ease-in-out;
 }
 
 /* Sparkle effect*/
 .heading.glow {
-  animation: sparkle 10s ease infinite;
+  animation: sparkle 10s ease-in-out infinite;
 }
 
 .header {
