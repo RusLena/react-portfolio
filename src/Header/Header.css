@@ -2,27 +2,23 @@
 @keyframes sparkle {
   
   0% {
-    color: rgb(245, 246, 170); /* Light yellow */
+    color: rgb(90, 148, 163);
   }
 
-  20% {
-    color: rgb(220, 210, 150); /* Soft yellow transitioning */
+  25% {
+    color: rgb(131, 121, 240);
   }
 
-  40% {
-    color: rgb(170, 185, 240); /* Soft purple-blue */
+  50% {
+    color: rgb(245, 246, 170);
   }
 
-  60% {
-    color: rgb(131, 121, 240); /* Purple */
-  }
-
-  80% {
-    color: rgb(170, 237, 249); /* Soft blue */
+  75% {
+    color: rgb(131, 121, 240);
   }
 
   100% {
-    color: rgb(245, 246, 170); /* Light yellow again */
+    color: rgb(90, 148, 163);
   }
 }
 
